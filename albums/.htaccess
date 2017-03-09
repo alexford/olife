@@ -1,0 +1,4 @@
+RewriteEngine  on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?olentangylife.com/?.*$ [NC]
+RewriteRule \.(gif|jpg|jpeg|png|mp3|mpg|avi|mov)$ - [F,NC]

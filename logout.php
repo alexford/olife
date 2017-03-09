@@ -1,0 +1,1 @@
+<?phpsession_start(); header("Cache-control: private"); //IE 6 Fix $_SESSION = array(); session_destroy(); header("Location: index.php");?>

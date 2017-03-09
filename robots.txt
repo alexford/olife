@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /profile_pics/
+Disallow: /people/
+Disallow: /blogs/
+Disallow: /blog/
+Disallow: /album_pics/
+Disallow: /albums/
+Disallow: /private/

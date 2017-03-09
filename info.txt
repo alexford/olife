@@ -1,0 +1,17 @@
+
+# Contact info submission
+
+url: olentangylife.com/
+site_owner: Alex Ford
+address1: 
+address2: 
+city: 
+state: 
+country: United States
+postal_code: 
+phone_number: 
+display_email: alex@olentangylife.com
+site_name: Olentangy Life
+site_description: An online blogging community designed exclusively and 
+specifically for Olentangy High School students, in Lewis 
+Center, Ohio.

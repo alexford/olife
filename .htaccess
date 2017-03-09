@@ -1,0 +1,13 @@
+RewriteEngine on
+
+
+
+RewriteRule ^old\.html$ /new.html [R]
+RewriteCond %{REQUEST_URI} ^/stats/(.*)$ [OR]
+RewriteCond %{REQUEST_URI} ^/failed_auth.html$
+RewriteRule ^.*$ - [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/?$ /blog/?u=$1 [R]
